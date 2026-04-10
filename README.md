@@ -109,15 +109,6 @@ The example below illustrates how Crow can represent a complex route as a clear 
   <img src="./docs/images/crow-routing-example.png" alt="Crow routing example with split routing and split pool execution" width="640" />
 </div>
 
-## Brand Visuals
-
-Crow now includes its core public brand assets directly in the repository.
-
-<div align="center">
-  <img src="./docs/images/brand/crow-swarm-city.png" alt="Crow brand visual in city setting" width="280" />
-  <img src="./docs/images/brand/crow-swarm-forest.png" alt="Crow brand visual in forest setting" width="280" />
-</div>
-
 ## Visual Overview
 
 ```mermaid
@@ -177,6 +168,15 @@ Crow is being shaped around a clear long-term direction:
 - Lower integration overhead
 - Better developer ergonomics
 - More dependable execution outcomes
+
+## Brand Visuals
+
+Crow now includes its core public brand assets directly in the repository.
+
+<div align="center">
+  <img src="./docs/images/brand/crow-swarm-city.png" alt="Crow brand visual in city setting" width="280" />
+  <img src="./docs/images/brand/crow-swarm-forest.png" alt="Crow brand visual in forest setting" width="280" />
+</div>
 
 ## Public Positioning
 
