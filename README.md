@@ -101,6 +101,14 @@ Crow can act as the routing backbone for:
 | Product focus | Execution-ready routing infrastructure |
 | Integration profile | Suitable for wallets, APIs, terminals, and internal systems |
 
+## Routing Example
+
+The example below illustrates how Crow can represent a complex route as a clear execution plan. A single swap can branch across multiple assets, venues, and pool destinations, then converge into one final execution outcome.
+
+<div align="center">
+  <img src="./docs/images/crow-routing-example.png" alt="Crow routing example with split routing and split pool execution" width="640" />
+</div>
+
 ## Visual Overview
 
 ```mermaid
