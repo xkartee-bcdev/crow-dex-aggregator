@@ -142,6 +142,53 @@ flowchart TD
     H --> I
 ```
 
+## Quote API Example
+
+The following shows an example `GET /quote` request and a sample `200` response payload shape.
+
+```bash
+curl --request GET \
+  --url 'http://0.0.0.0:8080/quote?slippageBps=50&swapMode=ExactIn&restrictIntermediateTokens=true&maxAccounts=64&instructionVersion=V1'
+```
+
+```json
+{
+  "inputMint": "<string>",
+  "inAmount": "<string>",
+  "outputMint": "<string>",
+  "outAmount": "<string>",
+  "otherAmountThreshold": "<string>",
+  "swapMode": "ExactIn",
+  "slippageBps": 1,
+  "priceImpactPct": "<string>",
+  "routePlan": [
+    {
+      "swapInfo": {
+        "ammKey": "<string>",
+        "inputMint": "<string>",
+        "outputMint": "<string>",
+        "inAmount": "<string>",
+        "outAmount": "<string>",
+        "label": "<string>",
+        "outAmountAfterSlippage": "<string>"
+      },
+      "percent": 123,
+      "bps": 123
+    }
+  ],
+  "instructionVersion": "V1",
+  "platformFee": {
+    "amount": "<string>",
+    "feeBps": 123
+  },
+  "contextSlot": 123,
+  "timeTaken": 123,
+  "additionalIntermediateTokens": [
+    "<string>"
+  ]
+}
+```
+
 ## How To Think About Crow
 
 Crow should be thought of as a serious aggregation and routing layer, not merely a venue directory.
